@@ -1,4 +1,4 @@
-uresource "aws_s3_bucket" "new_bucket" {
+resource "aws_s3_bucket" "new_bucket" {
 bucket = "draco-tf-test-bucket"
 acl    = "private"
 region = "us-east-1"
