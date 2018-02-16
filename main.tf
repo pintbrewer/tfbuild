@@ -6,7 +6,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-
+/*
 resource "aws_s3_bucket" "new_bucket" {
 bucket = "draco-tf-test-bucket"
 acl    = "private"
@@ -16,3 +16,4 @@ tags {
     Environment = "Dev"
   }
 }
+*/
